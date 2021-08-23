@@ -9,12 +9,12 @@ import (
 	_ "github.com/lib/pq"
 )
 
-const Driver = "postgres"
-const User = "sa_avalion"
+const Driver = "teste"
+const User = "teste"
 const Host = "localhost"
 const Port = "5432"
-const Password = "hqs@HQS"
-const DbName = "avalion"
+const Password = "teste"
+const DbName = "teste"
 
 var db *sql.DB
 var err error
